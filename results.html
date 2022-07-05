@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <link rel="stylesheet" href="style.CSS">
+    <title>Portal da Confirmação.</title>
+</head>
+
+<body>
+    <h2>Olá João Gabriel Siqueira Oliveira</h2>
+    <h3>Como vai?</h3>
+    <h3>Durante inúmeras ocasiões os dados do povo Brasileiro foram vazados por brechas no sistema e isso causou muitos
+        problemas a sociedade, porém vários indivíduos não sabem quais dados seus foram exatamente liberados, e neste site
+        iremos informar-lhe sobre quais de seus dados potencialmente foram copiados.</h3>
+    <h3>Esta Plataforma consegue seu cadastro através do seu Email e suas Credenciais(Nome, Data de nascimento, Gênero,
+        etc.)</h3>
+    <div id="div1">
+        <h2>Plataformas de streaming.</h2>
+        <p>Netflix: Senha segura(até o momento).<br>Senha:********</p>
+        <p>Amazon Plus: Senha segura, sem indícios de acesso.<br>Senha:*******.</p>
+        <p>Twitch: Senha incosistente, dados apontam que sua senha foi liberada e está pode cair em mãos
+            erradas.<br>Recomendação e situação: Urgente, troque sua senha o mais rápido o possível.<br>Senha:****.</p>
+    </div>
+
+    <div id="div2">
+        <h2>Bancos Digitais.</h2>
+        <p>Chave Pix: Segura(até o momento).<br>Recomendações e situação: Chave Pix segura sem sinais de
+            acesso.<br>Chave Pix:***.***.***-**.</p>
+        <p>CPF/CNPJ: Seguro, sem indícios de acesso por parte de terceiros.<br>CPF/CNPJ:***.***.***-**.</p>
+        <p>Senha do Aplicativo Móvel: Segura(até o momento).<br>Recomendação: Senha fraca e de simples acesso,
+            recomendado troca-lá por uma mais forte.<BR>Senha:******.</p>
+    </div>
+
+    <div id="div3">
+        <h2>Plataformas de Comunicação(Profissionais).</h2>
+        <p>Email: Senha segura, sem indícios de acesso por parte de terceiros.<br>Senha:*********.</p>
+        <p>Hotmail/Oul: Senha segura(até o momento).<br>Recomendações:Senha fraca e de simples acesso, recomendado
+            troca-lá.<br>Senha:********.</p>
+        <p>Telegram: *CONTA Inativada*.<br>Senha Inexistente.<br>Caso não foi você que tenha feito isso recomendamos que
+            você<br> procure o suporte técnico.</p>
+    </div>
+
+    <div id="div4">
+        <h2>Platarformas de Jogos.</h2>
+        <p>Steam: Senha segura(até o momento).<br>Recomendações: senha fraca e de fácil acesso, recomendado troca-lá o
+            mais rápido o possível.<br>Senha:*******.</p>
+        <p>Epic Games:Senha incosistente, dados apontam que sua senha foi vazada, Substituição necessária
+            urgente.<br>Senha:***********.</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <br><br>
+    <div id="results"></div>
+    <a href="index.html">Voltar para o cadastro</a>
+    <script>
+        const resultsList = document.getElementById('results')
+        new URLSearchParams(window.location.search).forEach((value, name) => {
+            resultsList.append(`${names} : ${value}`)
+            resultsList.append(document.createElement('br'))
+        })
+
+
+    </script>
+
+
+</body>
+
+</html>
